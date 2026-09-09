@@ -1,4 +1,4 @@
-#  Hugging Face AI Chatbot
+#  AI Chatbot - hugging face & streamlit
 
 ##  Project Description
 
@@ -10,7 +10,7 @@ The chatbot allows users to ask questions and receive AI-generated responses thr
 
 The main objective of this project is to learn how to access a Large Language Model programmatically using the Hugging Face API and integrate it with a Streamlit application.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Streamlit
@@ -24,7 +24,10 @@ The main objective of this project is to learn how to access a Large Language Mo
 
 The model is accessed through Hugging Face Inference Providers.
 
-##  Architecture
+
+---
+
+## **Architecture**
 
 ```text
 User
@@ -40,17 +43,23 @@ LLM Model
 AI Response
   ↓
 Streamlit Interface
-## Features
+```
 
-- ChatGPT-style chat interface
-- User and AI messages
-- Chat history
-- Clear Chat option
-- Hugging Face LLM integration
-- Simple and user-friendly interface
-- AI-generated responses
+---
 
-## Project Structure
+## **Features**
+
+*  ChatGPT-style chat interface
+*  User and AI messages
+*  Chat history
+*  Clear Chat option
+*  Hugging Face LLM integration
+*  Simple and user-friendly interface
+*  AI-generated responses
+
+---
+
+## **Project Structure**
 
 ```text
 HuggingFace_LLM/
@@ -59,44 +68,74 @@ HuggingFace_LLM/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-Installation
-
-Clone the repository:
-
-git clone - https://github.com/nikithanka7-byte/HuggingFace-Streamlit-Chatbot
-
-Install required packages:
-
-pip install -r requirements.txt
-
- Hugging Face Token Setup
-
-Create a Hugging Face Access Token.
-
-For Windows PowerShell:
-
-$env:HF_TOKEN="your_huggingface_token"
-
-Do not upload your Hugging Face token to GitHub.
-
- Run the Application
-python -m streamlit run app.py
-
-The application will open in the browser.
-
- Example :[streamlit-app-2026-09-09-23-34-18.webm](https://github.com/user-attachments/assets/f05de5a4-58bf-4e0c-95b6-673c644a7ad5)
-
- Learning Outcome
-
-This project demonstrates how to:
-Connect Python with Hugging Face.
-Access an LLM programmatically.
-Use an API token securely.
-Build a chatbot using Streamlit.
-Maintain chat history.
-Create a simple AI application.
+```
 
 ---
- Author
-Nikitha R
+
+## **Installation**
+
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/nikithanka7-byte/HuggingFace-Streamlit-Chatbot.git
+```
+
+### **2. Install Required Packages**
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## **Hugging Face Token Setup**
+
+Create a **Hugging Face Access Token**.
+
+For **Windows PowerShell**:
+
+```powershell
+$env:HF_TOKEN="your_huggingface_token"
+```
+
+>  **Important:** Do not upload your Hugging Face token to GitHub.
+
+---
+
+## **Run the Application**
+
+Run the following command:
+
+```bash
+python -m streamlit run app.py
+```
+
+The application will open in your browser.
+
+---
+
+## **Example**  - Application preview
+
+[streamlit-app-2026-09-09-23-34-18.webm](https://github.com/user-attachments/assets/159ebfa4-e2ff-44eb-8b6b-f3aa2314f78b)
+
+
+---
+
+## **Learning Outcome**
+
+This project demonstrates how to:
+
+* Connect Python with Hugging Face.
+* Access an LLM programmatically.
+* Use an API token securely.
+* Build a chatbot using Streamlit.
+* Maintain chat history.
+* Create a simple AI application.
+
+---
+
+## **Author**
+
+**Nikitha R**
+
+---
